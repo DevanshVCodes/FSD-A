@@ -1,0 +1,27 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.gridcontainer{
+    display: grid;
+    background-color: antiquewhite;
+}
+
+.fitems{
+    background-color: lightsalmon;
+    border: 5px solid green;
+    padding: 40px;
+}
+
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+
+
+
+
