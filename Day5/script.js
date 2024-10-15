@@ -7,9 +7,10 @@
 // }
 // disp();
 
-let sum=(x,y)=>{
-    return x+y;
-}
+// let sum=(x,y)=>{
+//     return x+y;
+// }
 
-let res=sum(12,32);
-console.log(res);
+// let res=sum(12,32);
+// console.log(res);
+

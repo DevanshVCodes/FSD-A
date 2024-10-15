@@ -7,10 +7,36 @@
     <!-- <script src="script.js"></script> -->
 </head>
 <body>
-    <button onmouseover="display()">Click Here</button>
-    <p></p>
+    <input type="text" id="myinput" placeholder="type here..">
+        <p class="keypressed">KeyPressed</p>
+    <a href="https://abes.ac.in">ABES WEBSITE</a>
+    <button onclick="link()">CLICK HERE</button>
     <script>
+        /* let p1=document.querySelector('a')
+        let b = true;
+        let display=()=>{
+            if(b){
+                p1.setAttribute('href','https://aktu.ac.in');
+                p1.innerText="AKTU Website";
+                b = false;
+        }
+            else {
+                p1.setAttribute('href','https://www.abes.ac.in');
+                p1.innerText="ABES Website";
+                b = True;
+            }
+        }*/
+
         
+        
+          const handlekeypress = (event) => {
+            document.querySelector('.keypressed').textContent = event.target.value;
+          }
+      
+          let myinput = document.getElementById('myinput');
+          myinput.addEventListener('keydown', handlekeypress); 
+    
+
     </script>
 </body>
 </html>
