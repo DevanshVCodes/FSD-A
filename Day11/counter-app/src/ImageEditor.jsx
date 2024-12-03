@@ -2,7 +2,7 @@ import { useState } from "react";
 import img from "./Images/img.avif";
 
 const ImageEditor = () => {
-    const[width,setWidth] = useState(500);
+    const[width,setWidth] = useState(600);
     const[height,setHeight] = useState(400);
   return (
     <div>
